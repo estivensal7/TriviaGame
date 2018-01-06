@@ -1,0 +1,50 @@
+body {
+	background-color: #444; 
+}
+
+h1 {
+	text-align: center;
+	color: white !important;
+}
+
+span {
+	color: white;
+	font-size: 20px;
+	margin-left: 520px;
+}
+
+#playAgain {
+	margin-left: 500px;
+	margin-bottom: 30px;
+}
+
+#timer {
+	text-align: center;
+	font-size: 32px;
+	color: white;
+}
+
+.jumbotron {
+	background-color: transparent !important;
+}
+
+.hide {
+	display: none;
+}
+
+#questionsHold {
+	text-align: center;
+	background-color: #ddd;
+	border: solid 1px #ddd;
+	border-radius: 12px;
+}
+
+#questionsHold p {
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+#submitBtn {
+	margin-left: 525px;
+	margin-top: 30px;
+}

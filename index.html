@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>The Office Trivia Game</title>
+
+
+	<!-- Added a link to Bootstrap--> 
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<!-- jumbotron -->
+	<div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+	    <h1 class="display-3" id="title">The Office Trivia Game!</h1>
+	  </div>
+	</div>
+
+	<div class="container">
+
+		<!-- play again -->
+		<div class="row">
+			<button type="button" class="btn btn-secondary btn-lg hide" id="playAgain">Play Again!</button>
+		</div>
+
+		<div class="row">
+			<div id="scoreHold">
+				<span id="correctPar"></span>
+				<br/>
+				<span id="wrongPar"></span>
+			</div>
+		</div>
+
+		<!-- time left -->
+		<div class="row">
+			<div>
+				<span id="timer"></span> 
+			</div>
+		</div>
+
+		<div class="row">
+			<div id="questionsHold"></div>
+		</div>
+
+		<!-- Submit Button -->
+		<a href="#" class="btn btn-primary" id="submitBtn">Submit</a>
+
+
+	</div>
+
+
+
+
+
+	<!-- Added link to the jQuery Library -->
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous">
+  	</script>
+
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>
